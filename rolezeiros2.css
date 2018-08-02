@@ -435,39 +435,91 @@
 	background: radial-gradient(hsla(210,100%,30%,0.9), hsla(210,100%,20%,0.9)) !important;
 	box-shadow: inset 0 0 50px #000 !important;
 }
-/*#### [TAG PERFIL] ####*/
-
-/ * vinicius * /
-[ data-cid ^ =  " 36740873 " ] .badge-box  .bdg ,
-# rollover de usuário .id-36740873  .badge-box  .bdg {
-    raio  de  fronteira : 5 px;
-    tamanho  de  fundo : capa;
-    background-repeat : repetir;
-    posi CA o  de  Fundo : centro;
-    background-image : url ( " https://i.imgur.com/UG4ciFh.jpg " );
+\* Nana */ 
+[data-cid^="21755082-"] .badge-box .bdg,
+#user-rollover.id-21755082 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.imgur.com/u0qXPaS.jpg");
 }    
 
-/ * Nana * /
-[ data-cid ^ =  " 21755082 " ] .badge-box  .bdg ,
-# rollover de usuário .id-21755082  .badge-box  .bdg {
-    raio  de  fronteira : 5 px;
-    tamanho  de  fundo : capa;
-    background-repeat : repetir;
-    posi CA o  de  Fundo : centro;
-    background-image : url ( " https://i.imgur.com/u0qXPaS.jpg " );
+.cm.message.deletable.id-21755082::before,
+.cm.message.id-21755082::before {
+    background-image: url(https://wallpapersite.com/images/wallpapers/nebula-1440x2560-pink-galaxy-stars-4k-13210.jpg);    /* Nana BACKGROUND */
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    background-position-y: -180px;
+    background-position-x: right;
+}
+#user-rollover.id-21755082 .thumb .avi {
+    background: url(https://i.pinimg.com/originals/d9/c4/81/d9c481872cd66826a611adc103da69d5.gif) center center / 180px no-repeat !important;
+}
+/* Lolla */ 
+[data-cid^="23246837-"] .badge-box .bdg,
+#user-rollover.id-23246837 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://scontent-gig2-1.xx.fbcdn.net/v/t1.0-9/33133665_379167825914094_1789520663866769408_n.jpg?_nc_cat=0&oh=8e83dd846bf301b7f7646fd5cc9f752c&oe=5BCEDB26");
+}    
+
+.cm.message.deletable.id-23246837::before,
+.cm.message.id-5639828::before {
+    background-image: url(https://s9.favim.com/orig/140706/backgrounds-galaxy-infinity-night-Favim.com-1893509.jpg);    /* Lolla BACKGROUND */
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    background-position-y: -290px;
+    background-position-x: right;
+
+}
+#user-rollover.id-23246837 .thumb .avi {
+    background: url(https://i.imgur.com/r7gQiWA.gif) center center / 180px no-repeat !important;
 }
 
-/ * Lolla * /
-[ data-cid ^ =  " 23246837 " ] .badge-box  .bdg ,
-# rollover de usuário .id-23246837  .badge-box  .bdg {
-    raio  de  fronteira : 5 px;
-    tamanho  de  fundo : capa;
-    background-repeat : repetir;
-    posi CA o  de  Fundo : centro;
-    background-image : url ( " https://scontent.fsdu7-1.fna.fbcdn.net/v/t1.0-9/20729636_262487590915452_7649870444230668725_n.jpg?_nc_cat=0&_nc_eui2=AeHGwIydlUKd3R7H3e80-gLvj6wjleg-z9F__--ukV5SrVQYnclrmfx00fiXJ5V9qSKjA4VApwPB-HpVFXYIaZdBqz4w3W63rkJau- 5Ei9ytKQ & oh = ee40ed355a3aee5cc44209742997c8eb & oe = 5BAB6BEB " );
-
+\* Carol */ 
+[data-cid^="38741985-"] .badge-box .bdg,
+#user-rollover.id-38741985 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://data.whicdn.com/images/140385688/original.jpg");
+}    
+.cm.message.deletable.id-38741985::before,
+.cm.message.id-38741985::before {
+    background-image: url(https://wallpaper-house.com/data/out/21/wallpaper2you_1147.jpg);    /* Carol BACKGROUND */
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    background-position-y: -20px;
+    background-position-x: right;
 }
-
+#user-rollover.id-38741985 .thumb .avi {
+    background: url(https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission_anm%2FUSER%2F20160815%2F10%2F1186890%2F1%2F540x304x85d4bc839f3e25ef4303fccb.gif&twidth=682&theight=5000&qlt=80&res_format=jpg&op=pt) center center / 180px no-repeat !important;
+}
        
 	/*## [TAG-BOT] ##*/
 	   
